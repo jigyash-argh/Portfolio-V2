@@ -3,3 +3,7 @@ body {
   @apply bg-[#212121] text-white;
   font-family: system-ui, sans-serif;
 }
+@theme {
+  /* This automatically generates the utility class `font-handwritten` */
+  --font-handwritten: "Caveat", cursive;
+}
